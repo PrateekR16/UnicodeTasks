@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.maxwidth1{
+    max-width: 80vw ;
+}
+
+.maxwidth2{
+    max-width: 60vw ;
+}
+
+.marginauto{
+    margin: auto;
+}
+
+@media(max-width:600px){
+    .blogtext{
+        flex-direction: column;
+    }
+}
